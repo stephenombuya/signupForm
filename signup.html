@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        textarea, input[type=text], input[type=password], input[type=email], input[type=number]{
+            width: 100%;
+            margin: 8px 0px;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid rgb(109, 8, 240);
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: rgb(134,132,133);">
+   <h1 style="text-align: center">Registration Form</h1> 
+   <br>
+   <form style="border: 3px solid #f1f1f1;">
+     <div style="padding: 25px; background-color: lightblue;">
+        <label>First Name: </label>
+        <input type="text" name="firstname" maxlength="15" placeholder="Enter first name">
+        <br>
+        <br>
+
+        <label>Middle Name: </label>
+        <input type="text" name="middlename" maxlength="15" placeholder="Enter middle name">
+        <br>
+        <br>
+
+        <label>Last Name: </label>
+        <input type="text" name="lastname" maxlength="15" placeholder="Enter last name">
+        <br>
+        <br>
+        
+        <label>Course: </label>
+        <select>
+            <option value="Course">Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="M.Tech">M.Tech</option>
+        </select>
+        <br><br>
+
+        <label>Gender: </label><br>
+        <input type="radio" name="male">Male<br>
+        <input type="radio" name="Female">Female<br>
+        <input type="radio" name="Other">Other<br>
+        <br>
+
+        <label>Phone: </label>
+
+        <input type="text" name="country code" value="+254" maxlength="4"><br>
+        <input type="number" name="Phone" maxlength="10"><br><br>
+
+        <label>Address: </label><br>
+        <textarea col="80" rows="5" value="Address"></textarea><br><br>
+
+        <label>Email: </label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Password: </label>
+        <input type="password" id="pass" name="pass">
+        <br><br>
+        <label>Re-enter Password</label>
+        <input type="password" id="pass" name="pass">
+        <br><br>
+
+        <input type="button" value="Submit">
+    </div>
+   </form>
+
+</body>
+</html>
