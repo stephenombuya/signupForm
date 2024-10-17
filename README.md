@@ -83,4 +83,4 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 
 
 ### **License**
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/stephenombuya/signupForm/blob/main/LICENSE) file for more information.
+This project is licensed under the GNU License. See the [LICENSE](https://github.com/stephenombuya/signupForm/blob/main/LICENSE) file for more information.
